@@ -32,4 +32,18 @@ if num %2 ==0:
 elif num==0:
     print("The entered number is Zero")
 else :
-    print("The entered number is odd")    
+    print("The entered number is odd")   
+
+# classify a person's age group (child (< 13), teenager (13-19),
+#  adult (20-59), senior (60+)) based on their age.  
+age1 = int(input ("Enter age of a person:"))
+
+if age < 13:
+    print("The person belongs to child category")
+elif age < 20:
+    print("The person belongs to teenager category")  
+elif age < 60:
+    print("The person belongs to adult category") 
+else:
+    print("The person belongs to Senior citizen age group")     
+
