@@ -39,3 +39,23 @@ def circle_stats(r):
 a , c = circle_stats(radius)
 print('Area of circle is:',a)
 print('Circumference of circle is:',c) 
+
+# write a function that greets a user. If no name is provided, it should 
+# greet with "Hello, Guest!"
+guest = str(input("Enter name:"))
+
+def greet(name = 'guest!'):
+    return 'Hello' +' '+ name
+
+print(greet())
+print(greet(guest))
+
+# create a lambda function to calculate the cube of a number
+num = int(input('Enter number:'))
+ 
+cube = lambda x : x ** 3 
+
+print('Cube of number is:',cube(num))
+
+# write a function that takes variable number of arguments and returns 
+# their sum (using *args)
